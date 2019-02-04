@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>JS sin/cos/tan</title>
+  </head>
+  <body>
+    <h1>JS sin/cos/tan</h1>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/1200px-Rtriangle.svg.png" alt="right triangle diagram" width="200px"/>
+    </div>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td>a (leg)=</td>
+            <td><input type="text" id="legA"></td>
+          </tr>
+          <tr>
+            <td>b (leg)=</td>
+            <td><input type="text" id="legB"></td>
+          </tr>
+          <tr>
+            <td>c (hypotenuse)=</td>
+            <td><input type="text" id="hypotenuse"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <button id="getResults">Get Results</button>
+    <h2>Results</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>fun</th>
+          <th>frac</th>
+          <th>#</th>
+        </tr>
+      </thead>
+      <tbody id="results">
+        <tr>
+          <td>sin A</td>
+          <td id="sinAfrac"></td>
+          <td id="sinAnum"></td>
+        </tr>
+        <tr>
+          <td>cos A</td>
+          <td id="cosAfrac"></td>
+          <td id="cosAnum"></td>
+        </tr>
+        <tr>
+          <td>tan A</td>
+          <td id="tanAfrac"></td>
+          <td id="tanAnum"></td>
+        </tr>
+        <tr>
+          <td>sin B</td>
+          <td id="sinBfrac"></td>
+          <td id="sinBnum"></td>
+        </tr>
+        <tr>
+          <td>cos B</td>
+          <td id="cosBfrac"></td>
+          <td id="cosBnum"></td>
+        </tr>
+        <tr>
+          <td>tan B</td>
+          <td id="tanBfrac"></td>
+          <td id="tanBnum"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
